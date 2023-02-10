@@ -1,0 +1,295 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section{
+    background: linear-gradient(100deg, #1D5C63, #1D5C63), url(image/bg-phone.jpg) no-repeat 0 0;
+    
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 64vh;
+    display: flex;
+    padding: 100px;
+    background-size: cover;
+    position: relative;
+}
+.section img{
+    max-width: 100px;
+}
+.content-section h1, h4{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.content-section  h4{
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 35px   ;
+    font-weight: 50;
+    font-family: 'Kanit', sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+
+}
+.content-section h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.waves{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    margin-bottom: 0px;
+}
+
+
+
+/*Service*/
+.services{
+    
+    margin-top: 30px;
+    display: flex;
+    
+}
+
+
+.title h2{
+   
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 30px;
+    
+}
+.title h2::before{
+    content: '';
+    position: absolute;
+    left: 44%;
+    bottom: -10%;
+    width: 130px;
+    height: 4px;
+}
+.services-wrapper{
+    padding: 50px;
+    background: #ffff;
+    transition: .4s;
+}
+.services-wrapper:hover{
+    box-shadow: 5px 25px 80px 0px rgb(0, 0, 0, 0.25);
+    transform: translateY(-20px);
+}
+.services-img{
+    text-align: center;
+}
+.services-img img{
+    width: 80px;
+    height: 80px;
+}
+.services-content h4{
+    text-align: center;
+    margin: 15px 0;
+    color: #1D5C63;
+    font-size: 27px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+
+}
+.services-content p{
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+
+
+
+
+/*OUR TEAM*/
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    padding-bottom: 1px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+.teams {
+    color: #fff;
+    background: #1D5C63;
+    height: 450px;
+    position: relative;
+}
+
+
+.teams .carousel .card {
+    background: #222;
+    border-radius: 10px;
+    padding: 20px 0px;
+    text-align: center;
+    transition: all 0.3s ease;
+    
+}
+
+.teams .carousel .card:hover {
+    background: #8A8A8A;
+}
+
+.teams .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.teams .carousel .card:hover .box {
+    transform: scale(1.05);
+}
+
+.teams .carousel .card .text {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.teams .carousel .card img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover img {
+    border-color: #1D5C63;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF!  important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+    background: #8A8A8A!important;
+}
+
+
+/* Footer SECTION */
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 20px 0 20px;
+    bottom: 0;
+    left: 0;
+    position:static;
+    width: 100%;
+    
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+.footer h3 {
+    color: #fff;
+    
+}
+
+.footer-col-1, footer-col-2, footer-col-3, footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-top: 30px;
+    
+}
+
+.footer-col-3, .footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    justify-content: center;
+}
+
+.app-logo {
+    margin-top: 15px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    
+}
+
+.copyright {
+    text-align: center;
+    bottom: 0;
+}
+
